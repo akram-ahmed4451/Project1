@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+  }
+  body {
+    padding: 1vh;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #cccccc64;   */
+    padding: 1.5vh 20vh;
+  }
+  .logo img{
+      width: 30%;
+      border-radius:100%;
+
+  }
+  .list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .list ul li {
+    padding: 7px;
+    font-size: 20px;
+    color: rgba(151, 44, 5, 0.97);
+    letter-spacing: -1px;
+    font-weight:400;
+  }
+  .list ul li:hover {
+    background-color:rgb(118, 51, 3) ;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 1s;
+    /* border: 1px solid rgba(255, 127, 80, 0.75) ; */
+
+  }
+  .main {
+    width: 100%;
+    /* background-color: red; */
+    height: 40%;
+  }
+  .main .text {
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 15%;
+  }
+  .main .text h1 {
+    /* background-color: gray; */
+    font-size: 10vh;
+    /* padding: 18%; */
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    word-spacing: -5px;
+    color: rgba(255, 127, 80, 0.757);
+    /* color: #545445; */
+    /* line-height: 0; */
+  }
+  .main button {
+    padding: 10px;
+    margin: 10px;
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: -2.5px;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #00000093;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: gray;
+  }
+  .main-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 8vh;
+    /* background-color: yellow; */
+  }
+  .main-2 .img img {
+    border-radius: 10px;
+  }
+  .zoom {
+    transition: transform 0.2s;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .set {
+    text-align: center;
+    background-color: #eee;
+    letter-spacing: -1.5px;
+    font-weight: 400;
+    border-radius: 4px;
+    text-transform: capitalize;
+  }
+  .set-font {
+    font-size: 20px;
+    background-color: #eee;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -2.5px;
+  }
+  .wanner-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .left-img{
+    width: 45%;
+    /* height: 50vh; */
+    /* background-color: black; */
+    text-align: center;
+    /* border: 1px solid red; */
+    
+  }
+  .left-img img{
+    width: 80%;
+    border-radius: 3px ;
+  }
+  .text-right{
+    /* background-color: red; */
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+    font-weight: 700;
+    letter-spacing: -1.1px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color:#00000093;
+  }
+  .hr{
+    margin: 20px;
+  }
+  .wanner-2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    /* line-height: 0; */
+    align-items: center;
+    
+  }
+  .wanner-2 .img{
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .wanner-2 .img img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+ .wanner-2 .wanner-2-text{
+    letter-spacing: -1px;
+    font-weight: 900;
+ }
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  color: white;
+  align-items: center;
+  letter-spacing: -1.5px;
+}
+.footer ul li{
+  list-style: none;
+  padding: 3px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+}
+.footer .flex {
+  text-align: center;
+  width: 20%;
+}
+.footer .flex h3{
+  width: 100%;
+  /* background-color: white; */
+  color: white;
+  text-transform: capitalize;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: 1px solid ;
+  margin-left: 5px;
+}
+.footer .flex p{
+  width: 100%;
+  /* background-color: white; */
+  color: white;
+  text-transform: capitalize;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+  /* border-bottom: 1px solid ; */
+  margin-left: 5px;
+}
+
+.footer .flex input{
+  width: 100%;
+  padding: 7px 2px;
+  font-size: 17px;
+  text-align: center;
+}
+.footer .flex button{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+border: none;
+border-radius: 3px;
+font-size: 16px;
+cursor: pointer;
+font-weight: 400;
+/* letter-spacing: -1px; */
+}
+#ferror{
+  color: red;
+  font-weight: 400;
+}
+#passerror{
+  color: red;
+  font-weight: 400;
+}
